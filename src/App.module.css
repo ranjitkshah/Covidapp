@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-color:white;
+    width: 100%;
+    overflow-x: hidden;
+    
+  
+  }
+  .optionlabel{
+    margin: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 28px;
+    padding: 2px 15px;
+    color: #30336B;
+  
+    background-color: #74B9FF;
+    width: 83%;
+    text-align: center;
+
+
+  }
+
+  .navlabel{
+    margin: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 28px;
+    padding: 2px 15px;
+    color: #30336B;
+    border-radius: 10px 0px 10px 0px;
+    background-color: #74B9FF;
+
+  }
+
+  .footer{
+    width: 100%;
+   
+    
+    margin-top: 20px;
+    color: #30336B;
+    padding: 0;
+    text-decoration: none;
+    text-align: right;
+    font-size: 20px;
+
+  }
+
+  .footer h5{
+    margin: 10px;
+  }
+
+  .cardlabel{
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0px;
+  }
+
+  .card p{
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    font-size:20px ;
+
+  }
+
+  .button{
+    margin: 10px !important;
+
+  }
+
+  
+  
+  .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .image {
+    width: 370px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .card{
+    margin: 3% 2% !important;      
+}
+
+.content{
+  padding: 0 !important ;
+  
+}
+
+.total{
+  
+  background: rgba(0,123,255,.0627451) !important;
+  color: #007bff !important;
+}
+
+.recovered{
+  background: rgba(40,167,69,.12549) !important;
+  color: #28a745 !important;
+}
+
+.deaths{
+   background: rgba(255,7,58,.12549) !important;
+  color: red !important;
+
+}
+
+.btn{
+  margin: 0px 15px !important;
+}
+
+.btnIcon{
+  font-size: 50px !important;
+}
+
+
+
+
+
+
+
+
+
+
+  
+  @media only screen and (max-width: 770px) {
+    .container {
+      margin: 5% 10%;
+      overflow-x: hidden !important;
+    }
+
+    .card{
+      margin: 4% 5% !important;
+
+    } 
+    .navlabel{
+      margin-top: 40px;
+      font-family: 'Bebas Neue', cursive;
+      font-size: 24px;
+      padding: 2px 8px;
+      color: #30336B;
+      border-radius: 10px 0px 10px 0px;
+      background-color: #74B9FF;
+  
+    }
+
+    .btn{
+      margin: 20px 20px !important;
+    }
+  
+    .image {
+      width: 100%;
+    }
+
+    .btnIcon{
+      font-size: 30px !important;
+    }
+    .optionlabel{
+      margin: 28px;
+      font-family: 'Bebas Neue', cursive;
+      font-size: 25px;
+      padding: 2px 15px;
+      color: #30336B;
+      border-radius: 10px 0px 10px 0px;
+    
+      background-color: #74B9FF;
+      text-align: center;
+  
+  
+    }
+  }

@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100% !important;
+    height: 100%;
+  }
+
+.container .charthead{
+  margin: 20px;
+  font-family: 'Bebas Neue', cursive;
+  text-align: center;
+  font-size: 22px;
+  padding: 5px 15px;
+  color: #30336B;
+  border-radius: 10px;
+  background-color: #74B9FF;
+
+}
+
+.chart{
+
+  width: 60%;
+  height: 80vh;
+  margin: 40px;
+  padding: 20px;
+  
+}
+  
+  @media only screen and (max-width: 770px) {
+    .container {
+      width: 100%;
+    }
+    .container .charthead{
+      margin: 20px;
+      font-family: 'Bebas Neue', cursive;
+      font-size: 17px;
+      padding: 5px 10px;
+    
+      color: #30336B;
+      border-radius: 0;
+      background-color: #74B9FF;
+    }
+
+    .chart{
+
+      width: auto;
+      height: auto;
+      margin: 10px;
+      padding: 10px;
+      
+    }
+
+  }

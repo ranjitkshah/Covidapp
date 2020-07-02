@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cardhead{
+    margin: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
+    padding: 5px 15px;
+    color: #30336B;
+    border-radius: 10px;
+    background-color: #74B9FF;
+    text-align: center;
+}
+
+.helpbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px;
+    font-family: 'Bebas Neue', cursive;
+    color: #30336B;
+    background-color: lightblue;
+    width: 100%;
+    border-radius: 10px;
+
+    
+}
+
+.helpbox h5{
+    font-size: 30px;
+    margin: 0;
+    padding: 10px;
+}
+
+.helpbox p{
+    font-size: 25px;
+    margin: 0;
+    padding: 10px;
+}
