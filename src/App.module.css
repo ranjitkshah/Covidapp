@@ -47,6 +47,7 @@ body {
 
   .footer h5{
     margin: 10px;
+    color: #30336B;
   }
 
   .cardlabel{
@@ -135,6 +136,21 @@ body {
       margin: 4% 5% !important;
 
     } 
+    .footer{
+      width: 100%;
+     
+      
+      margin-top: 10%;
+      color: #30336B;
+      padding: 0;
+      text-decoration: none;
+      text-align: right;
+      font-size: 15px;
+  
+    }
+    .footer a{
+      color: #30336B;
+    }
     .navlabel{
       margin-top: 40px;
       font-family: 'Bebas Neue', cursive;
