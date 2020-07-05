@@ -3,7 +3,7 @@ import { Card, CardContent, Typography, Grid ,IconButton } from '@material-ui/co
 import styles from './App.module.css';
 import Cards from './Comp/Cards';
 import Charts from './Comp/Charts';
-import image from './images/image.png'
+import image from './images/logo.png'
 import Helpline from './Comp/Helpline';
 import Countup from 'react-countup'
 import cx from 'classnames'
