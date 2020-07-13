@@ -13,10 +13,10 @@ function Charts() {
     const [count, setCount] = useState('')
 
     useEffect(() => {
-        axios.get(`https://api.steinhq.com/v1/storages/5e732accb88d3d04ae0815ae/StateWiseHealthCapacity`)
+        axios.get(`https://api.rootnet.in/covid19-in/hospitals/beds`)
             .then((result) => {
-                console.log(result.data)
-                setBedCount(result.data)
+                console.log(result.data.data)
+                setBedCount(result.data.data)
 
             }).catch((err) => {
                 console.log(err)
@@ -24,11 +24,13 @@ function Charts() {
             });
     }, [])
 
-    if (bedCount[0] != null) {
+    if (bedCount.summary!= null) {
         // bedCount.map(data => console.log(data.State))
-        console.log(bedCount)
+        console.log(bedCount.regional)
     }
 
+
+    
     // console.log(count.TotalBedsCount)
     
     const barChart = (
@@ -40,13 +42,13 @@ function Charts() {
                   {
                     label: 'count',
                     backgroundColor: ['rgba(0, 0, 255, 0.5)', 'rgba(0, 255, 0, 0.5)'],
-                    data: [count.TotalBedsCount, count.TotalHospitalsCount],
+                    data: [count.totalBeds, count.totalHospitals],
                   },
                 ],
               }}
             options={{
                 legend:{display:false},
-                title:{display:true , text:`Hospitals & Beds in ${count.State}`},
+                title:{display:true , text:`Hospitals & Beds in ${count.state}`},
             }}
             />
         ):null
@@ -61,8 +63,8 @@ function Charts() {
                     id="combo-box-demo"
                     onChange={(e, value) =>
                         setCount(value)}
-                    options={bedCount}
-                    getOptionLabel={(option) => option.State}
+                    options={bedCount.regional}
+                    getOptionLabel={(option) => option.state}
                     style={{ width: 300 }}
                     renderInput={(params) => <TextField {...params} label="Select State" variant="outlined" />}
                 />
