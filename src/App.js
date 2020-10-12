@@ -149,14 +149,14 @@ function App() {
 
       </div>
       {toggleScreen}
-      <div className={styles.footer} >
-        <h5>Developed by <a target="blank" href="https://meghalbisht.github.io/Ranjit-Resume/" > ranjitkshah </a> </h5>
-        <a target="blank" href="https://www.linkedin.com/in/ranjit-shah-b94b7a1a8/" ><LinkedInIcon /></a>
-        <a target="blank" href="https://github.com/ranjitkshah" ><GitHubIcon /></a>
-        
-      </div>
-
     
+    <div className="foot">
+      <h5>Developed by <a target="blank" href="https://meghalbisht.github.io/Ranjit-Resume/" > Ranjit Shah </a></h5>
+      <div>
+      <a target="blank" href="https://www.linkedin.com/in/ranjit-shah-b94b7a1a8/" ><LinkedInIcon /></a>
+      <a target="blank" href="https://github.com/ranjitkshah" ><GitHubIcon /></a>
+      </div>
+    </div>
     </div>
   );
 }
