@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.foot{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  color: #fff;
+  background-color: rgb(37, 83, 37);
+}
+
+.foot a{
+  text-decoration: underline;
+  color: #fff;
+}
+
+.foot h5{
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.foot div a{
+  margin: 0px 5px;
+}
